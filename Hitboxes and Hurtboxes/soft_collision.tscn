@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7n1a64cwqnb8"]
+
+[ext_resource type="Script" path="res://Hitboxes and Hurtboxes/soft_collision.gd" id="1_i7keu"]
+
+[node name="SoftCollision" type="Area2D"]
+collision_layer = 16
+collision_mask = 16
+script = ExtResource("1_i7keu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
